@@ -1,2 +1,3 @@
-# capture_ratio
-Capture ratio, uma métrica que mostra como um fundo se comporta em relação ao seu índice de referência.
+# Capture Ratio
+Capture ratio, uma métrica que mostra como um fundo se comporta em relação ao seu índice de referência. 
+Em essência, ela ajuda a entender se o fundo entrega mais retorno nas altas ou preserva melhor o capital nas quedas, quando comparado ao benchmark. O upside capture ratio representa o desempenho do fundo em momentos positivos do mercado. Quando está acima de 100, indica que o fundo superou o índice durante as altas. Já o downside capture ratio avalia o comportamento em períodos negativos do mercado, e valores abaixo de 100 sugerem que o fundo sofreu menos do que o benchmark. Quando ambos os indicadores estão próximos de 100, significa que o fundo tende a replicar o comportamento do próprio índice.
