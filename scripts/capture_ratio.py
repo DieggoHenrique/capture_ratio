@@ -80,6 +80,7 @@ class CalculaRatios:
         self.resultados_consolidados = df.sort_values('Capture Ratio', ascending=False)
         return self.resultados_consolidados
     
+
     def mostrar_resultados(self):
         """Exibe os resultados formatados em tabela"""
         if self.resultados_consolidados is None:
@@ -92,6 +93,7 @@ class CalculaRatios:
             showindex=False,
             floatfmt=".2f"
         ))
+    
     
     def exportar_excel(self, caminho_saida):
         """
@@ -111,7 +113,7 @@ class CalculaRatios:
 if __name__ == "__main__":
     # Configurações
     dir_excel = r'C:\Users\dieggo.araujo\Documents\Analise_FIA_Capture_Rateio\dados_raw\Retorno dos Fatores 2023 a 2024.xlsx'
-    fatores = ['Defensive', 'Valor', 'Momentum', 'Growth', 'SB']
+    fatores = ['Defensive', 'Valor', 'Momentum', 'Growth', 'SB', 'Size']
     benchmark = 'IBOV'
     
     # Cria e usa a classe
